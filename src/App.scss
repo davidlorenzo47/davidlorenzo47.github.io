@@ -1,8 +1,13 @@
 @import './Style/layout';
 @import './Style/navbar';
 @import './style/typography';
+@import './Style/title';
+@import './Style/about';
+@import './Style/skills';
+@import './Style/services';
 
 *{
+    color: white;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,4 +17,8 @@ body{
     color: #a4acc4;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.2rem;
+}
+
+span{
+    color: #0052a5;
 }
