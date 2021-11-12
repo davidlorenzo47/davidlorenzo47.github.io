@@ -1,10 +1,28 @@
 .App{
-    .sidebar{
+    .sidebar{               //custom scroll bar
         width: 16%;
         height: 100vh;
         background-color: #3b4153;
         position: fixed;
         border-right: 1px solid #797979;
+        transform-origin: left;
+        z-index: 11;
+        @media screen and (max-width: 1000px){
+            transition: all .4s ease-in-out;
+            transform: translateX(-100%);
+            width: 30%;
+        }
+        @media screen and (max-width: 411px){
+            width: 50%;
+        }
+    }
+
+    // For hiding/seeing the side bar when screen width is small
+    .nav-toggle{
+        @media screen and (max-width: 1000px){
+            transition: all .4s ease-in-out;
+            transform: translateX(0);
+        }
     }
 
     .main-content {
@@ -15,20 +33,55 @@
         //background-image: url(../Assets/back.jpg);
         display: grid;
         position: relative;
+        .content{
+            margin: 5rem 15rem;
+            @media screen and (max-width: 1100px){
+                margin: 2rem 10rem;
+            }
+            @media screen and (max-width: 1400px){
+                margin: 3rem 10rem;
+            }
+            @media screen and (max-width: 1400px){
+                margin: 3rem 10rem;
+            }
+            @media screen and (max-width: 710px){
+                margin: 2rem 3rem;
+            }
+        }
+        @media screen and (max-width: 1000px){
+            margin-left: 0;
+            width: 100%;
+        }
     }
-    .content{
-        margin: 5rem 15rem;
-        @media screen and (max-width: 1100px){
-            margin: 2rem 10rem;
+}
+
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 5%;
+    width: 4rem;
+    height: 4rem;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    .lines-1, .lines-2, .lines-3{
+        height: .4rem;
+        width: 100%;
+        background-color: #3858cc;
+        pointer-events: none;
+        display: none;
+        border-radius: 20px;
+        &:not(:last-child){
+            margin-bottom: .5rem;
         }
-        @media screen and (max-width: 1400px){
-            margin: 3rem 10rem;
-        }
-        @media screen and (max-width: 1400px){
-            margin: 3rem 10rem;
-        }
-        @media screen and (max-width: 710px){
-            margin: 2rem 3rem;
+    }
+    @media screen and (max-width: 1000px){
+        display: block;
+        .lines-1, .lines-2, .lines-3{
+            display: block;
         }
     }
 }
