@@ -4,7 +4,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faDiscord} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 
 const HomePage = () => {
     return (
@@ -23,6 +23,7 @@ const HomePage = () => {
 
                 {/* Brand Icons */}
                 <div className="icons">
+                    {/* CSS from ../Style/_typography.scss   */}
                     <a  href="https://github.com/davidlorenzo47" target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </a>
