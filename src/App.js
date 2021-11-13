@@ -30,6 +30,9 @@ const App = () => {
         <div className="content">
         <Switch>
           {/* Routes for pages */}
+          <Route path="/dhruvanggondalia-portfolio/" exact>
+                <HomePage />
+              </Route>
               <Route path="/" exact>
                 <HomePage />
               </Route>
