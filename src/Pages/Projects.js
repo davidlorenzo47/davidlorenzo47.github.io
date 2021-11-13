@@ -16,9 +16,11 @@ const Projects = () => {
                     allBlogs.map((blog)=>{
                         return <div className="blog" key={blog.id}>
                             <div className="blog-content">
+                                <a href={blog.link} target="_blank">
                                 <img src={blog.image} alt=""/><br/>
-                                <a href={blog.link} target="_blank" className="blog-link">
+                                <a  className="blog-link">
                                     {blog.title}
+                                </a>
                                 </a>
                             </div>
                         </div>
