@@ -10,6 +10,7 @@ const blogs = [
         image: blog1,
         title: 'Grocery Web App',
         link: 'https://github.com/davidlorenzo47/flask-grocery',
+        target: "_blank",
         date : '21',
         month: 'Mar',
         year: '2020'

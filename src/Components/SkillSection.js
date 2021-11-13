@@ -4,7 +4,7 @@ const SkillSection = ({skill,progress,width}) => {
     return (
         <div className="SkillsSection">
             <div className="skills-container">
-                <h5 className="skill-title">{skill}</h5>
+                <h3 className="skill-title">{skill}</h3>
                 {/* Uncomment below code to view progress bar */}
                 {/* <div className="skill-bar">
                     <p className="skill-text">{progress}</p>

@@ -7,7 +7,19 @@
         grid-gap: 2rem;
     }
     .blog{
-        background-color:#161925;
+        background-color: #157fb1;
+        border-left: 1px solid #2e344e;
+        border-right: 1px solid #2e344e;
+        border-bottom: 1px solid #2e344e;
+        border-top: 8px solid #2e344e;
+        transition: all .4s ease-in-out;
+        @media screen and (max-width:1400px){
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        &:hover{
+            border-top: 8px solid #ffffff;
+        }
         width: 100%; // width of the frame
         padding: 1rem;
         overflow: hidden;

@@ -6,15 +6,27 @@
     .contact{
         display: flex;
         align-items: center;
-        background-color:#191D2B ;
+        background-color: #157fb1;
+        border-left: 1px solid #2e344e;
+        border-right: 1px solid #2e344e;
+        border-bottom: 1px solid #2e344e;
+        border-top: 8px solid #2e344e;
+        transition: all .4s ease-in-out;
+        @media screen and (max-width:1400px){
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        &:hover{
+            border-top: 8px solid #ffffff;
+        }
         padding: 3rem 0;
         .right-items{
-            margin-left: 2rem;
+            margin-left: 1rem;
         }
         img{
             padding: 1rem;
             border: 1px solid #2e344e;
-            margin-left: 2rem;
+            margin-left: 1rem;
             width: 16%;
         }
         .right-items{
@@ -45,7 +57,10 @@
 .map-sect{
     width: 97%;
     padding: 1rem;
-    background-color:#191D2B;
+    background-color:#2e344e;
+    &:hover{
+        background-color: #157fb1;
+    }
     iframe{
         width: 100%;
         height: 100%;

@@ -17,7 +17,7 @@ const Projects = () => {
                         return <div className="blog" key={blog.id}>
                             <div className="blog-content">
                                 <img src={blog.image} alt=""/><br/>
-                                <a href={blog.link} className="blog-link">
+                                <a href={blog.link} target="_blank" className="blog-link">
                                     {blog.title}
                                 </a>
                             </div>

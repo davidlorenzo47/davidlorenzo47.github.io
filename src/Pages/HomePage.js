@@ -14,11 +14,8 @@ const HomePage = () => {
                     Hi, I am 
                     <span> Dhruvang Gondalia.</span>
                 </h1>
-                <p className="h-sub-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cupiditate facere, numquam vitae placeat consequatur corrupti officia 
-                    quibusdam. Blanditiis doloremque nemo ex facilis neque. 
-                    Feel free to connect with me.
+                <p className="h-sub-text"> 
+                Welcome to my website. I am a technophile and I love coding. My favorite programming languages include C++, Python, Java, Javascript, and many more. I also enjoy playing and exploring Linux. Feel free to connect with me.
                 </p>
 
                 {/* Brand Icons */}

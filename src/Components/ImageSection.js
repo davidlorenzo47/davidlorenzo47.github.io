@@ -8,9 +8,9 @@ const ImageSection = () => {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>I am<span> Dhruvang Gondalia</span></h4>
+                <h4><span> Dhruvang Gondalia</span></h4>
                 <p className="about-text">
-                I am a Computer Engineering Student. I love coding and my favourite programming languages include C++, Python, Java, Javascript and many more. I also enjoy playing and exploring with linux. My passion for technology drives me to learn more about the various innovations and advancements made in our technology-driven world. Feel free to contact me.
+                I am a Computer Engineering Student, currently in my Final Year, and will be graduating in 2022 with a Bachelor's in Computer Engineering degree. My GPA is 8.6 and I do not have backlogs in any of the subjects. My passion for technology drives me to learn more about the various innovations and advancements made in our technology-driven world. Feel free to talk and discuss with me any technologies you would like to. 
                 </p>
                 <div className="about-details">
                     <div className="left-section">

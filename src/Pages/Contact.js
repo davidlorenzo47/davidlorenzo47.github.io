@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div>
             <div className="title">
-                <Tittle title={'About Me'} span={'About Me'} />
+                <Tittle title={'Contact Me'}/>
             </div>
             <div className="ContactPage">
                 <div className="map-sect">
@@ -17,8 +17,8 @@ const Contact = () => {
                 </div>
                 <div className="contact-sect">
                     {/* CSS from ../Style/_contact.scss */}
-                    <ContactItem icon={phone} text1={'+257 7756110718'} text2={'+0333 6782 8792'} title={'Phone'}/>
-                    <ContactItem icon={email} text1={'loremipusum@hmail.com'} text2={'abcloremipsum@gmail.com'} title={'Email'}/>
+                    <ContactItem icon={phone} text1={'+91 8767814460'} title={'Phone'}/>
+                    <ContactItem icon={email} text1={'gondaliadhruvang@gmail.com'} title={'Email'}/>
                     <ContactItem icon={location} text1={'Navi Mumbai'} text2={'India'} title={'Address'}/>
                 </div>
             </div>
