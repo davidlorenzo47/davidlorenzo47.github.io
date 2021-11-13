@@ -18,7 +18,7 @@ const HomePage = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Cupiditate facere, numquam vitae placeat consequatur corrupti officia 
                     quibusdam. Blanditiis doloremque nemo ex facilis neque. 
-                    A sint ipsam earum nemo omnis et.
+                    Feel free to connect with me.
                 </p>
 
                 {/* Brand Icons */}
