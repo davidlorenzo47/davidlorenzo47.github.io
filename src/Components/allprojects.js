@@ -1,10 +1,20 @@
 import blog1 from '../Assets/wd.svg';
 import blog2 from '../Assets/ml.svg';
 import blog3 from '../Assets/wd.svg';
+import blog4 from '../Assets/da.svg';
 // import blog4 from '../img/blogs/blog4.svg';
 // import blog5 from '../img/blogs/blog5.svg';
 
 const blogs = [
+    {
+        id: 4,
+        image: blog4,
+        title: 'Data Visualization for NBA stats',
+        link: 'http://go-sa.ga/',
+        date : '04',
+        month: 'Aug',
+        year: '2020'
+    },
     {
         id: 1,
         image: blog1,
@@ -33,15 +43,6 @@ const blogs = [
         month: 'Jun',
         year: '2018'
     }//,
-    // {
-    //     id: 4,
-    //     image: blog4,
-    //     title: 'UI/UX Design Starter with Figma',
-    //     link: 'https://www.facebook.com/',
-    //     date : '04',
-    //     month: 'Aug',
-    //     year: '2020'
-    // },
     // {
     //     id: 5,
     //     image: blog5,
