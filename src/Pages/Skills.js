@@ -24,7 +24,7 @@ import react from '../Assets/skills/react.svg';
 const Skills = () => {
     return (
         <div>
-            <Tittle title={'I like to code in ...'}/>
+            <Tittle title={'I like to code in'}/>
                 <div className="skillsContainer">
                         {/* Skill progrss is from SkillSection   */}
                         <SkillsSection skill={'C++'} progress={'85%'} width={'76%'} />

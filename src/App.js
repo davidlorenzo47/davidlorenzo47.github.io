@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
-        <Navbar />
+        <Navbar/>
       </div>
       <div className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>

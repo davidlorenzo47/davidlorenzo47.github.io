@@ -1,0 +1,39 @@
+create-react-app . // creates a react app in the folder (No Capital letters of Folder name and no spaces)
+
+npm start // starts react app on localhost:3000; boilerplate code visible there
+
+Changes of the default page is made in App.js
+
+npm i bootstrap //installs bootstrap
+
+git status // to see if any changes
+git add . //adds all the files
+git commit -m "portfolio_website" // to commit, add what you have done in the quotes
+git checkout -b header // to create a new branch named header
+git push -u origin master // to put code in github from vscode, here code is being pushed to master
+git log //to see all the commits
+git branch --show-current //to see the current branch
+
+create a repo in github
+git remote add origin https://github.com/davidlorenzo47/dhruvanggondalia.git
+git push -u origin master // to put code in github from vscode, here code is being pushed to master
+
+crtl + d // selects variables of same name
+
+css uses rem so convert pixels to rem
+
+to overwrite bootstrap rules from css, add "!important"
+
+in React you specify name for class as className and not class
+
+//rafce is react arrow function component export
+
+//after cloning the repo, run "npm i" to install all the necessary packages
+
+//writing <ComponentName/> like this renders in page
+
+//to launch in github pages edit package.json.
+//first add a key value pair at the beginning, as, "homepage": "https://davidlorenzo47.github.io/dhruvanggondalia-portfolio", //do not change the format.
+//then edit scripts.
+//add "predeploy": "npm run build", "deploy": "gh-pages -d build", in scripts.
+//to host the project simply run the command "npm run deploy" and the project will be hosted.

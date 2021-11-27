@@ -15,7 +15,7 @@ const HomePage = () => {
                     <span> Dhruvang Gondalia.</span>
                 </h1>
                 <p className="h-sub-text"> 
-                Welcome to my website. I am a technophile and I love coding. My favorite programming languages include C++, Python, Java, Javascript, and many more. I also enjoy playing and exploring Linux. Feel free to connect with me.
+                Welcome to my portfolio website. I am a technophile and I love coding. My favorite programming languages include C++, Python, Java, Javascript, and many more. I also enjoy playing and exploring Linux. Feel free to connect with me.
                 </p>
 
                 {/* Brand Icons */}
