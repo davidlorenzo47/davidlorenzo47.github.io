@@ -8,6 +8,10 @@ import Contact from './Pages/Contact';
 import {Switch, Route} from 'react-router-dom';
 import { useState } from 'react';
 // import { Routes ,Route } from "react-router-dom";
+import RouteChangeTracker from './Components/RouteChangeTracker'
+import ReactGA from 'react-ga';
+const TRACKING_ID = "UA-219566512-1"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
   const [navToggle, setNavToggle] = useState(false);
@@ -50,6 +54,9 @@ const App = () => {
               </Route>
         </Switch>
         </div>
+      </div>
+      <div>
+        <RouteChangeTracker />
       </div>
     </div>
   );
