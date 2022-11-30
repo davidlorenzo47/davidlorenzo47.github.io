@@ -17,7 +17,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-sect">
                     {/* CSS from ../Style/_contact.scss */}
-                    <ContactItem icon={phone} text1={'+91 8767814460'} title={'Phone'}/>
+                    <ContactItem icon={phone} text1={'+1 8767814460'} title={'Phone'}/>
                     <ContactItem icon={email} text1={'gondaliadhruvang@gmail.com'} title={'Email'}/>
                     <ContactItem icon={location} text1={'Navi Mumbai'} text2={'India'} title={'Address'}/>
                 </div>
