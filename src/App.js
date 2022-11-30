@@ -6,6 +6,7 @@ import Projects from './Pages/Projects';
 import Skills from './Pages/Skills';
 import Contact from './Pages/Contact';
 import {Switch, Route} from 'react-router-dom';
+
 import { useState } from 'react';
 // import { Routes ,Route } from "react-router-dom";
 import RouteChangeTracker from './Components/RouteChangeTracker'
@@ -17,13 +18,13 @@ const App = () => {
   const [navToggle, setNavToggle] = useState(false);
 
   const navClick = () =>{
-    setNavToggle(!navToggle)
+    setNavToggle(!navToggle);
   }
 
   return (
     <div className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
-        <Navbar/>
+      <Navbar/>
       </div>
       <div className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>
@@ -52,6 +53,7 @@ const App = () => {
               <Route path="/contact" exact>
                 <Contact />
               </Route>
+              <Route path="*" component={HomePage} />
         </Switch>
         </div>
       </div>
